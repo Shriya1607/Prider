@@ -1,0 +1,30 @@
+.tweets {
+  margin-left: 2rem;
+}
+.tweet-title {
+  display: flex;
+  padding-left: 20px;
+  color: orange;
+}
+.single-tweet {
+  display: flex;
+  padding-bottom: 2rem;
+  /* box-shadow: -1px 4px 20px -6px rgba(255, 165, 0, 0.7); */
+  height: fit-content;
+  width: fit-content;
+}
+.latest {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+.date {
+  padding-left: 10px;
+  color: lightgray;
+}
+.para {
+  padding-left: 15px;
+  color: whitesmoke;
+  font-size: 18px;
+}

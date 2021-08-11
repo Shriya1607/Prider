@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+.prider {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 7px;
+  border: 7px solid orange;
+  border-radius: 5px;
+  padding: 6px 7px 6px 8px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.header-icon {
+  margin-right: 17px;
+  font-size: 23px;
+  color: whitesmoke;
+}
+.header-icon:hover {
+  color: orange;
+}
+.header-btn {
+  margin-left: 80px;
+  background-color: orange;
+  font-weight: 600 !important;
+  font-size: 19px !important;
+  padding: 10px 15px !important;
+}
+.header-right {
+  display: flex;
+  align-items: center; /* align item is used to position on y axis*/
+}
