@@ -4,26 +4,20 @@ import "./navbar.css";
 function Navbar() {
   return (
     <div className="navbarr">
-      <a href="#health" className="nav-icon">
-        Health
+      <a href="#rights" className="nav-icon icon1 ">
+        LGBTQ Rights
       </a>
-      <a href="" className="nav-icon">
-        Activism
+      <a href="#lgbtq" className="nav-icon icon2">
+        LGBTQ+
       </a>
-      <a href="" className="nav-icon">
-        Travel
+      <a href="#pride" className="nav-icon icon3">
+        Pride
       </a>
-      <a href="" className="nav-icon">
+      <a href="#equality" className="nav-icon icon4">
         Equality
       </a>
-      <a href="" className="nav-icon">
-        Sport
-      </a>
-      <a href="" className="nav-icon">
-        Culture
-      </a>
-      <a href="" className="nav-icon">
-        Pride
+      <a href="#coming" className="nav-icon icon5">
+        Coming out stories
       </a>
     </div>
   );

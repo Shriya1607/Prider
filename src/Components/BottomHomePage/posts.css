@@ -1,0 +1,32 @@
+.posts {
+  
+}
+.ttt {
+  /* max-width: 850px !important; */
+  margin: 1rem 2rem;
+  width: 350px;
+}
+.rights,
+.lgbtq,
+.pride,
+.equality,
+.coming {
+  display: flex;
+  max-width: 2000px;
+  justify-content: center;
+}
+#rights{
+    background-color: #b88ccc;padding: 0 4rem;
+}
+#lgbtq{
+    background-color: #81c9cf;padding: 0 4rem;
+}
+#pride{
+    background-color: #93e085;padding: 0 4rem;
+}
+#equality{
+    background-color: #feb641;padding: 0 4rem;
+}
+#coming{
+    background-color: #ff6767;padding: 0 4rem;
+}

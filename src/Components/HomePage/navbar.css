@@ -1,19 +1,40 @@
 .navbarr {
   background-color: rgba(0, 0, 0, 0.85);
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 6rem;
   height: 4rem;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .nav-icon {
   color: white;
-  margin-right: 5rem;
+  margin-right: 6rem;
   border-right: 1.5px solid whitesmoke;
-  padding-right: 5rem;
+  padding-right: 6rem;
   font-size: 16.5px;
   text-decoration: none;
 }
-.nav-icon:hover {
-  color: orange;
+.icon1:hover {
+  color: #b88ccc;
   text-decoration: none;
+}
+.icon2:hover {
+  color: #81c9cf;
+  text-decoration: none;
+}
+.icon3:hover {
+  color: #93e085;
+  text-decoration: none;
+}
+.icon4:hover {
+  color: #feb641;
+  text-decoration: none;
+}
+.icon5:hover {
+  color: #ff6767;
+  text-decoration: none;
+}
+.icon5 {
+  border-right: none;
+  margin-right: 0;
 }
